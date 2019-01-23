@@ -1,7 +1,7 @@
 # js_dynamic_add
 js控制动态添加
 
-```
+```html
 <div class="layui-form-item" id="saltIpGroup">
         <label class="layui-form-label">
             规格配置:
@@ -26,8 +26,7 @@ js控制动态添加
 </div>
 ```
 
-```
-<!-- /****************输入框 -->
+```js
 <script>
     
     var index=parseInt("{$length|default=0}");
